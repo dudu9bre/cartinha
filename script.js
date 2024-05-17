@@ -10,10 +10,14 @@ $(document).ready(function () {
     })
 })
 
-document.addEventListener("scroll", function() {
-    if (window.scrollY > 100) {
-        document.body.classList.add("scrolled")
-    } else {
-        document.body.classList.remove("scrolled")
-    }
-})
+// document.addEventListener("scroll", function() {
+//     if (window.scrollY > 500 && window.scrollY < 1200) {
+//         document.body.classList.add("scrolled")
+//         document.body.classList.remove("scrolled2")
+//     } else if (window.scrollY > 1200) {
+//         document.body.classList.add("scrolled2")
+//     } else {
+//         document.body.classList.remove("scrolled")
+//         document.body.classList.remove("scrolled2")
+//     }
+// })
